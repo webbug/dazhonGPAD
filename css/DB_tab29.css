@@ -1,0 +1,37 @@
+/*应用特效时，以上样式可删除*/
+#d_tab29 ul, #d_tab29 li { margin: 0; padding: 0 3px; list-style: none }
+#d_tab29 img { border: 0; vertical-align: top }
+#d_tab29 { position: relative; height:auto;top: 5.2rem; /*background: url('../images/bg3.jpg') no-repeat center 0;*/ text-align: left }
+#d_tab29 .d_img { position: absolute; margin: 0 auto; width: 100%; height: 100% }
+#d_tab29 .d_img li { position: absolute; display: none; z-index: 0; -webkit-transition: all 0.4s ease-in-out;}
+#d_tab29 .d_img .cont{ width:100%; height:87px; background:rgba(0,0,0,0.5); position:absolute; bottom:0px; left:0px; z-index:99999;}
+#d_tab29 .d_img li img { 
+	width: 100%; 
+	-webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%);
+    -o-filter: grayscale(80%);
+    filter: grayscale(80%);
+    filter: gray;
+}
+	
+.regray{
+    -webkit-filter: grayscale(0)!important;
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale();
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    filter: gray;
+}
+	
+#d_tab29 .d_img li.d_pos1 { display: block; width: 2rem; left: 2%; top: 2.7375rem; z-index: 1; }
+#d_tab29 .d_img li.d_pos2 { display: block; width: 3rem; left: 8%; top: 2.225rem; z-index: 2; }
+#d_tab29 .d_img li.d_pos3 { display: block; width: 6.75rem; left: 17%; top: 0.3125rem; z-index: 3;opacity: 1 }
+#d_tab29 .d_img li.d_pos4 { display: block; width: 3rem; right: 8%; top: 2.225rem; z-index: 2; }
+#d_tab29 .d_img li.d_pos5 { display: block; width: 2rem; right: 2%; top: 2.7375rem; z-index: 1; }
+.d_menu { position: absolute; top: 7.55rem; width: 100%; text-align: center }
+.d_menu2 { position: absolute; top: 4.85rem; width: 100%; text-align: center }
+.d_menu li { display: inline-block; zoom: 1; *display:inline;background: url('../images/btn.png') no-repeat 0 0; width: 12px; height: 12px; cursor: pointer; margin-right: 3px }
+.d_menu li.d_select { background: url('../images/btn.png') no-repeat 0 -18px }
+#d_tab29 .d_next { position: absolute; left: 50%; margin-left: 475px; top: 140px; z-index: 10; cursor: pointer }
+#d_tab29 .d_prev { position: absolute; left: 50%; margin-left: -525px; top: 140px; z-index: 10; cursor: pointer }

@@ -1,0 +1,60 @@
+/*滚动条样式*/
+#wrapbao{
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+	z-index: 1;
+	top: 15%;
+	bottom:5%;
+	width: 92%;
+	background: #fff;
+	box-sizing: border-box;
+	padding:0 0.34375rem 0.671875rem 0.34375rem;
+	border-radius: 5px;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 5%;
+	bottom:5%;
+	width: 92%;
+	overflow: hidden;
+}
+
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+}
+
+
+.iScrollIndicator{
+   right: -0.1em;
+   background: rgba(255,255,255,.5)!important;
+}
+		
